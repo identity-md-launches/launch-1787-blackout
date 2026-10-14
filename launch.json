@@ -1,0 +1,24 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "BlackOut",
+    "name": "BlackOut",
+    "symbol": "BLACKOUT",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {
+    "poolBps": 8800,
+    "initialMarketCapWei": "2500000000000000000000",
+    "remainderTo": "0x612a9bb008e16ef2d24f41dae9fc661831d93367"
+  },
+  "notes": "BlackOut is a fixed-supply ERC-20. Its parameterless constructor mints all 1,000,000,000 BLACKOUT, with 18 decimals, once to msg.sender. There are no application contracts. The opening pool price is derived from the initial market cap and total supply; pool.initialPrice is provenance only."
+}
